@@ -13,6 +13,7 @@ $getopt option optstring parameter
  optipn에 사용할 옵션들을 나열하고 콜론으로 구분을 해 준 다음 optstring에 사용할 옵션들과 파라메터를 정의해 주면 된다. 
 
 **getopts**
+
 getopt 명령어는 발견된 모든 처리 된 옵션 및 매개변수에 대해 하나의 출력을 생성하지만 이와 달리 getopts 명령은 기존 쉘에서 파라메터들을 순차적으로 처리 한다.
 
 $getopts optstring variable
