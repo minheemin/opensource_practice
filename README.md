@@ -12,7 +12,7 @@
 이럴 경우 유용한 명령어가 getopt 이다.
 
 
-**$getopt option optstring parameter**
+    $getopt option optstring parameter
 
 
  optipn에 사용할 옵션들을 나열하고 콜론으로 구분을 해 준 다음 optstring에 사용할 옵션들과 파라메터를 정의해 주면 된다. 
@@ -25,7 +25,7 @@
 
 getopt 명령어는 발견된 모든 처리 된 옵션 및 매개변수에 대해 하나의 출력을 생성하지만 이와 달리 getopts 명령은 기존 쉘에서 파라메터들을 순차적으로 처리 한다.
 
-**$getopts optstring variable**
+    $getopts optstring variable
 
 optstring에 유요한 옵션문자들을 나열한다.
 그리고 이 옵션들이 파라메터값을 필요로 하는 경우 콜론으로 구분을 한다. 그리고 getopt 명령에서 –q옵션과 같이 에러 메시지를 없애기 위해 콜론으로 시작한다.
