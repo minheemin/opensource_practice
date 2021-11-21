@@ -12,7 +12,9 @@
 이럴 경우 유용한 명령어가 getopt 이다.
 
 This is a normal paragraph:
+
  $getopt option optstring parameter
+ 
 end code block.
 
  optipn에 사용할 옵션들을 나열하고 콜론으로 구분을 해 준 다음 optstring에 사용할 옵션들과 파라메터를 정의해 주면 된다. 
