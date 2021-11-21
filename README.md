@@ -15,6 +15,8 @@ $getopt option optstring parameter
  optipn에 사용할 옵션들을 나열하고 콜론으로 구분을 해 준 다음 optstring에 사용할 옵션들과 파라메터를 정의해 주면 된다. 
 
 
+***
+
 + getopts
 
 
@@ -35,7 +37,6 @@ getopts 는 2개의 환경변수를 허용한다. 그 중 하나는 OPTARG 변�
 
 
 
-***
 + sed
 
 
@@ -61,6 +62,7 @@ sed '/Src/!d' 1.html : Src 문자가 있는 줄만 지우지 않는다.
 sed '1,2d' 1.html : 처음 1줄, 2줄을 지운다.
 sed '/^$/d 1.html : 공백라인을 삭제하는 명령이다.
 
+***
 
 + awk
 
